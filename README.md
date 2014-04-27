@@ -1,4 +1,5 @@
-polymer-components
+Polymer Components
 ==================
 
-Polymer: lorem, reddit
+* lorem
+* reddit
