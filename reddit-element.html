@@ -1,0 +1,17 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/core-ajax/core-ajax.html">
+ 
+<polymer-element name="reddit-element" attributes="subreddit">
+  <template>
+    <core-ajax url="http://www.reddit.com//r/{{subreddit}}/about.json" auto response="{{resp}}"></core-ajax>
+    <p>{{resp.data.public_description}}</p>
+  </template>
+  <script>
+  Polymer('reddit-element', {
+  	ready: function() {
+        //...
+    },
+    subreddit: "aww"
+  });
+  </script>
+</polymer-element>

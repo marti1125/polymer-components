@@ -3,9 +3,9 @@
   "private": true,
   "dependencies": {
     "polymer": "Polymer/polymer#~0.2.3",
-    "polymer-selector": "Polymer/polymer-selector#0.2.0",
-    "polymer-ui-collapsible": "Polymer/polymer-ui-collapsible#0.2.0",
+    "polymer-ajax": "Polymer/polymer-ajax#0.2.3",
+    "core-ajax": "Polymer/core-ajax#0.2.3",
     "platform": "Polymer/platform#~0.2.3"
   },
-  "version": "0.2.0"
+  "version": "0.2.3"
 }
